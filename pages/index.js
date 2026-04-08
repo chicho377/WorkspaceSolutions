@@ -298,7 +298,7 @@ export default function Home({ user }) {
           {[
             { tag: 'Segmento 01', title: 'Freelancers & Teletrabajadores', desc: 'Tu hogar es tu oficina. Optimizamos cada detalle para que concentración y bienestar convivan.', img: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=700&q=80&fit=crop' },
             { tag: 'Segmento 02', title: 'PyMEs & Empresas', desc: 'Equipos más felices, empresas más productivas. Transformamos oficinas en espacios donde la gente quiere estar.', img: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?w=700&q=80&fit=crop' },
-            { tag: 'Segmento 03', title: 'Instituciones Educativas', desc: 'Bibliotecas y espacios colaborativos diseñados para que cada estudiante encuentre su ritmo.', img: 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=700&q=80&fit=crop' },
+            { tag: 'Segmento 03', title: 'Instituciones Educativas', desc: 'Bibliotecas y espacios colaborativos diseñados para que cada estudiante encuentre su ritmo.', img: 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=700&q=80&fit=crop' },
           ].map((s, i) => (
             <div key={i} className="reveal" style={{ borderRadius: 24, overflow: 'hidden', position: 'relative', height: 400, transitionDelay: `${i * 0.1}s` }}>
               <img src={s.img} alt={s.title} style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.6s ease' }}
